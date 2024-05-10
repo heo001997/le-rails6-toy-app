@@ -10,9 +10,9 @@ gem 'webpacker',  '5.4.0'
 gem 'turbolinks', '5.2.1'
 gem 'jbuilder',   '2.10.0'
 gem 'bootsnap',   '1.7.2', require: false
+gem 'pg',         '1.5.6'
 
 group :development, :test do
-  gem 'sqlite3', '1.7.2'
   gem 'byebug',  '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
 end
 
@@ -28,10 +28,6 @@ group :test do
   gem 'selenium-webdriver', '3.142.7'
   gem 'webdrivers',         '4.6.0'
 end
-
-# group :production do
-#   gem 'pg', '1.2.3'
-# end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # Uncomment the following line if you're running Rails
